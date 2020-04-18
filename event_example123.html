@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button id="myBtn">try it</button>
+        <script>
+            var x=document.getElementById("myBtn");
+            x.addEventListener("click",myFunction)
+            x.addEventListener("click",someOtherFunction)
+            function myFunction() {
+                alert ("Hello World");
+            }
+            function someOtherfunction(){
+                alert ("this function also was executed")
+            }
+        </script>
+    </body>
+</html>

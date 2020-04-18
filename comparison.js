@@ -1,0 +1,11 @@
+var a=25,b=35,c=28
+console.log(a<b)
+console.log(a>b)
+console.log(a<=b)
+console.log(a>=b)
+console.log(a==b)
+console.log(a===b)
+console.log(a!=b)
+console.log(a!==b)
+console.log(a&&b)
+console.log(a||b)

@@ -1,0 +1,16 @@
+<!---finding element by tag name---->
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="main">
+        <p>DOM is very useful<b>getElementByTagName</b>method.</p>
+        </div>
+        <p id="demo"></p>
+        <script>
+            var x=document.getElementById("main");
+            var y=x.getElementsByTagName("p");
+            document.getElementById("demo").innerHTML=
+             'this is first paragraph (index 0) inside "main" is' +y[0].innerHTML;
+        </script>
+    </body>
+</html>
